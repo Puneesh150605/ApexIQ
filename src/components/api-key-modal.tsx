@@ -107,7 +107,7 @@ export function ApiKeyModal({
               >
                 <Sparkles className="w-5 h-5 mb-1 text-indigo-400" />
                 <span className="text-xs font-bold">Google Gemini</span>
-                <span className="text-[10px] text-slate-400">Live 1.5 Pro AI</span>
+                <span className="text-[10px] text-slate-400">Live 1.5 Flash AI</span>
               </button>
 
               <button

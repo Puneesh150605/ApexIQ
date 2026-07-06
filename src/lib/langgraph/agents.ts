@@ -27,7 +27,7 @@ function getLLM(state: ResearchState) {
     try {
       return new ChatGoogleGenerativeAI({
         apiKey: state.apiKey,
-        model: 'gemini-1.5-pro',
+        model: 'gemini-1.5-flash',
         temperature: 0.2,
       });
     } catch {

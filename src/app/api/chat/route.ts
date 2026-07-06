@@ -98,7 +98,7 @@ The user is interrogating your valuation models and thesis. Use these EXACT live
       try {
         const llm = new ChatGoogleGenerativeAI({
           apiKey,
-          model: 'gemini-1.5-pro',
+          model: 'gemini-1.5-flash',
           temperature: 0.3,
         });
         const res = await llm.invoke(`${systemPrompt}\n\nUser Question: ${message}\n\nChief Analyst Response:`);
